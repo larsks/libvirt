@@ -122,7 +122,7 @@ pkgconfig = '/usr/bin/s390x-linux-gnu-pkg-config'\n\
 system = 'linux'\n\
 cpu_family = 's390x'\n\
 cpu = 's390x'\n\
-endian = 'little'" > /usr/local/share/meson/cross/s390x-linux-gnu
+endian = 'big'" > /usr/local/share/meson/cross/s390x-linux-gnu
 
 ENV LANG "en_US.UTF-8"
 
